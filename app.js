@@ -15,7 +15,7 @@ app.use("/uploads", express.static(path.join(__dirname, "middleware/uploads")));
 
 const corsOptions = {
   origin: 'https://podcastguru.netlify.app', 
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', 
+  // methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', 
   allowedHeaders: 'Content-Type,Authorization', 
   credentials: true, 
   optionsSuccessStatus: 204,
