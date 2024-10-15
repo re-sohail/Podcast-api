@@ -15,7 +15,7 @@ app.use("/uploads", express.static(path.join(__dirname, "middleware/uploads")));
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://podcastguru.netlify.app/"],
     credentials: true,
   })
 );
